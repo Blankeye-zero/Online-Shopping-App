@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-// import 'package:registration_form/login.dart';
-// import 'package:registration_form/product_list.dart';
 import 'package:form_field_validator/form_field_validator.dart';
 
 class AppLoginPage extends StatefulWidget {
@@ -31,16 +29,6 @@ class _AppLoginPageState extends State<AppLoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      // appBar: AppBar(
-      //   toolbarHeight: 30,
-      //   title: Text(
-      //     'Login Page',
-      //     style: TextStyle(
-      //       fontWeight: FontWeight.w800,
-      //       fontSize: 20.0,
-      //     ),
-      //   ),
-      // ),
       body: Container(
         child: Stack(
           fit: StackFit.expand,
@@ -84,13 +72,6 @@ class _AppLoginPageState extends State<AppLoginPage> {
                              child: TextFormField(
                                key: formKey,
                                autovalidate: true,
-                              //  validator: (val){
-                              //     if(val!.isEmpty){
-                              //       return "Required";
-                              //     }else{
-                              //       return null;
-                              //     }
-                              //  },
                                 validator: MultiValidator([
                                   RequiredValidator(errorText: 'Required'),
                                   EmailValidator(errorText: 'Invalid'),
@@ -98,7 +79,6 @@ class _AppLoginPageState extends State<AppLoginPage> {
                                autocorrect: false,
                                autofocus: false,
                                style: TextStyle(
-                                //  fontWeight: FontWeight.bold,
                                  fontSize: 15.0
                                ),
                                decoration: InputDecoration(
@@ -194,7 +174,6 @@ class _AppLoginPageState extends State<AppLoginPage> {
                                    onPressed: (){
                                      Navigator.pushNamed(context, '/signup');
                                    },
-                                  //  color: Colors.lightBlueAccent,
                                   splashColor: Colors.cyanAccent,
                                    child: Text(
                                      'SignUp',

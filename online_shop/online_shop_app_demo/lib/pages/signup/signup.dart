@@ -13,14 +13,6 @@ class _SignUpState extends State<SignUp> {
 
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
-  // void so(){
-  //   if(formKey.currentState!.validate()){
-  //     print("ok");
-  //   }else{
-  //     print("error");
-  //   }
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,14 +37,9 @@ class _SignUpState extends State<SignUp> {
                                Padding(
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //   RequiredValidator(errorText: 'Required'),
-                                  // ]),
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -72,11 +59,6 @@ class _SignUpState extends State<SignUp> {
                                Padding(
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
@@ -101,16 +83,10 @@ class _SignUpState extends State<SignUp> {
                                Padding(
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -131,15 +107,9 @@ class _SignUpState extends State<SignUp> {
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
                                    key: formKey,
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //   RequiredValidator(errorText: 'Required'),
-                                  //   EmailValidator(errorText: "Invalid")
-                                  // ]),
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -159,16 +129,10 @@ class _SignUpState extends State<SignUp> {
                                Padding(
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -189,15 +153,10 @@ class _SignUpState extends State<SignUp> {
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
                                    autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -218,15 +177,10 @@ class _SignUpState extends State<SignUp> {
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
                                    autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -246,16 +200,10 @@ class _SignUpState extends State<SignUp> {
                                 Padding(
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -275,16 +223,10 @@ class _SignUpState extends State<SignUp> {
                                Padding(
                                  padding: const EdgeInsets.only(top: 1.0, right: 5.0, left: 5.0),
                                  child: TextFormField(
-                                  //  autovalidate: true,
-                                  //  validator: MultiValidator([
-                                  //    RequiredValidator(errorText: 'Required'),
-                                  //    MaxLengthValidator(6, errorText: 'Min length exceeded')
-                                  //  ]),
                                    obscureText: true,
                                    autocorrect: false,
                                    autofocus: false,
                                    style: TextStyle(
-                                    //  fontWeight: FontWeight.bold,
                                      fontSize: 10.0
                                    ),
                                    decoration: InputDecoration(
@@ -319,29 +261,6 @@ class _SignUpState extends State<SignUp> {
                                        ),
                                      ),
                             ),
-                            //  Padding(
-                            //     padding: const EdgeInsets.only(bottom: 10.0),
-                            //     child: Row(
-                            //       crossAxisAlignment: CrossAxisAlignment.end,
-                            //       mainAxisAlignment: MainAxisAlignment.end,
-                            //       children: [
-                                //     FlatButton(
-                                //          onPressed: (){
-                                //            Navigator.pop(context);
-                                //          },
-                                //          color: Colors.cyan,
-                                //          padding: EdgeInsets.symmetric(
-                                //            horizontal: 30.0
-                                //          ),
-                                //          child: Text(
-                                //            'LogIn',
-                                //            style: TextStyle(
-                                //              fontWeight: FontWeight.w900,
-                                //              fontSize: 10.0,
-                                //              color: Colors.black
-                                //            ),
-                                //          ),
-                                // ),
                           ]
                   ),
                 )
