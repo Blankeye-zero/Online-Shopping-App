@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 
-//good practice. This widget does not need to be stateful to be implemented.
+//good practice - managing State. This widget does not need to be stateful to be implemented.
 class WidgetCard extends StatelessWidget {
   final String name;
   final String imgUrl;
@@ -54,7 +54,7 @@ class WidgetCard extends StatelessWidget {
     );
   }
 }
-    
+    //here I reduced code drastically by using an already existing widget...
     
     //   Card(
     //       color: Colors.cyan,
